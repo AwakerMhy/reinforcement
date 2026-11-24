@@ -1,0 +1,8 @@
+{
+  "gymnasium_version": "1.4.0",
+  "environment": "CliffWalking-v1",
+  "is_slippery": false,
+  "reachable_nonterminal_states": 37,
+  "checked_state_actions": 148,
+  "mismatches": []
+}
