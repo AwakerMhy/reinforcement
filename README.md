@@ -4,6 +4,8 @@
 
 新增的可运行研究脚本与实验协议见 [experiments](experiments/README.md)。
 
+最新研究记录：[官方强化学习环境的转移核对与等步预算探索](research/2026-11-24_rl_official_environments.md)。
+
 ## 阅读入口
 
 - [研究总览](pages/page_030e7a17198c8191b8411f0d4bea0846.md)

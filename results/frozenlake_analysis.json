@@ -1,0 +1,33 @@
+{
+  "admitted": 100,
+  "mean_gap_strong_minus_weak": -943.5,
+  "paired_se": 118.19487204518552,
+  "bootstrap_95_percentile_interval": [
+    -1172.0,
+    -707.5
+  ],
+  "median_gap": -925.0,
+  "weak_first": 22,
+  "strong_first": 74,
+  "simultaneous": 4,
+  "strong_censored": 4,
+  "weak_censored": 37,
+  "hit_fraction_by_step": {
+    "500": {
+      "strong": 0.29,
+      "weak": 0.07
+    },
+    "1000": {
+      "strong": 0.54,
+      "weak": 0.19
+    },
+    "2000": {
+      "strong": 0.8,
+      "weak": 0.43
+    },
+    "3000": {
+      "strong": 0.96,
+      "weak": 0.63
+    }
+  }
+}

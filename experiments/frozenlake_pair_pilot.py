@@ -128,7 +128,7 @@ def run(args):
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.with_suffix(".csv").open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=rows[0].keys())
+        writer = csv.DictWriter(f, fieldnames=rows[0].keys(), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     output.with_suffix(".json").write_text(json.dumps(summary, indent=2) + "\n")

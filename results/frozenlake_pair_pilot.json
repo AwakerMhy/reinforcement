@@ -1,0 +1,30 @@
+{
+  "experiment": "exploratory_equal_step_frozenlake_pair",
+  "gymnasium_version": "1.4.0",
+  "environment": "FrozenLake-v1",
+  "map": "4x4",
+  "is_slippery": true,
+  "selection": "oracle exact V, ranks pool/4 and 3pool/4",
+  "parameters": {
+    "cohorts": 100,
+    "pool": 32,
+    "prep_steps": 1000,
+    "continuation_cap": 3000,
+    "eval_interval": 50,
+    "target": 0.5,
+    "min_gap": 0.05,
+    "seed": 20261124,
+    "output": "results/frozenlake_pair_pilot"
+  },
+  "cohorts": 100,
+  "admitted": 100,
+  "mean_initial_strong": 0.24688175965657905,
+  "mean_initial_weak": 0.016194874690907288,
+  "mean_capped_strong_hit": 1156.0,
+  "mean_capped_weak_hit": 2099.5,
+  "mean_gap_strong_minus_weak": -943.5,
+  "gap_se": 118.19487204518552,
+  "weak_first_fraction": 0.22,
+  "strong_censored": 4,
+  "weak_censored": 37
+}
