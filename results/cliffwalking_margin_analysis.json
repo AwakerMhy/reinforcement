@@ -1,0 +1,52 @@
+{
+  "cohorts": 6000,
+  "admitted": 1074,
+  "reference_available": 6000,
+  "quality_classes_available": 4011,
+  "preparation_steps": 960000000,
+  "selection_assessment_steps": 145195946,
+  "preparation_plus_selection_per_admitted": 1029046.5046554935,
+  "continuation_assessment_steps": 5810266,
+  "positive_arm_gap": {
+    "mean": 8.077281191806332,
+    "paired_se": 2.7443560970852037,
+    "bootstrap_95_percentile_interval": [
+      2.793296089385475,
+      13.408403165735518
+    ],
+    "median": 0.0,
+    "positive": 501,
+    "negative": 429,
+    "tie": 144
+  },
+  "negative_arm_gap": {
+    "mean": -4.329608938547486,
+    "paired_se": 2.7784222558571785,
+    "bootstrap_95_percentile_interval": [
+      -9.776536312849162,
+      1.000931098696462
+    ],
+    "median": 0.0,
+    "positive": 417,
+    "negative": 498,
+    "tie": 159
+  },
+  "paired_interaction": {
+    "mean": 12.406890130353817,
+    "paired_se": 3.6241944753000044,
+    "bootstrap_95_percentile_interval": [
+      5.260707635009311,
+      19.459962756052143
+    ],
+    "median": 0.0,
+    "positive": 535,
+    "negative": 439,
+    "tie": 100
+  },
+  "censor_counts": {
+    "positive_strong_censored": 0,
+    "positive_weak_censored": 0,
+    "negative_strong_censored": 0,
+    "negative_weak_censored": 0
+  }
+}

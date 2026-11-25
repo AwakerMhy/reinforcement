@@ -48,4 +48,5 @@ python3 experiments/summarize_cliffwalking.py
 
 ```bash
 node experiments/cliffwalking_margin.js
+python3 experiments/summarize_cliffwalking_margin.py
 ```

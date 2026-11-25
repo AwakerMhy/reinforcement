@@ -1,0 +1,36 @@
+{
+  "experiment": "cliffwalking_fixed_action_margin",
+  "seed": 20261128,
+  "cohorts": 6000,
+  "transition_source": "Gymnasium 1.4.0 CliffWalking-v1, is_slippery=false",
+  "reference_available": 6000,
+  "quality_classes_available": 4011,
+  "admitted": 1074,
+  "preparation_steps_total": 960000000,
+  "selection_assessment_steps_total": 145195946,
+  "continuation_assessment_steps_total": 5810266,
+  "positive": {
+    "mean_strong_steps": 105.49348230912477,
+    "mean_weak_steps": 97.41620111731844,
+    "gap_strong_minus_weak": 8.077281191806332,
+    "gap_se": 2.7443560970852094,
+    "weak_first": 501,
+    "strong_first": 429,
+    "tied": 144,
+    "strong_censored": 0,
+    "weak_censored": 0
+  },
+  "negative": {
+    "mean_strong_steps": 97.0437616387337,
+    "mean_weak_steps": 101.3733705772812,
+    "gap_strong_minus_weak": -4.329608938547486,
+    "gap_se": 2.778422255857178,
+    "weak_first": 417,
+    "strong_first": 498,
+    "tied": 159,
+    "strong_censored": 0,
+    "weak_censored": 0
+  },
+  "interaction_mean": 12.406890130353817,
+  "interaction_se": 3.6241944753000097
+}
