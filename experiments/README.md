@@ -29,4 +29,5 @@ python3 experiments/summarize_frozenlake.py
 
 ```bash
 python3 experiments/frozenlake_rollout_selection.py
+python3 experiments/summarize_frozenlake_rollout.py
 ```

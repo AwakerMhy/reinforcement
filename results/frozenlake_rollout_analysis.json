@@ -1,0 +1,77 @@
+{
+  "cohorts": 100,
+  "admitted": 99,
+  "true_initial_order": 99,
+  "preparation_steps": 3200000,
+  "selection_rollout_steps": 23485053,
+  "all_admitted_primary": {
+    "pairs": 99,
+    "mean_strong": 984.3434343434343,
+    "mean_weak": 1883.3333333333333,
+    "mean_gap_strong_minus_weak": -898.989898989899,
+    "paired_se": 138.5162633197677,
+    "bootstrap_95_percentile_interval": [
+      -1168.1818181818182,
+      -621.7171717171717
+    ],
+    "median_gap": -1050.0,
+    "weak_first": 27,
+    "strong_first": 70,
+    "simultaneous": 2,
+    "strong_censored": 7,
+    "weak_censored": 27,
+    "hit_fraction_by_step": {
+      "500": {
+        "strong": 0.41414141414141414,
+        "weak": 0.16161616161616163
+      },
+      "1000": {
+        "strong": 0.6262626262626263,
+        "weak": 0.26262626262626265
+      },
+      "2000": {
+        "strong": 0.8585858585858586,
+        "weak": 0.48484848484848486
+      },
+      "3000": {
+        "strong": 0.9292929292929293,
+        "weak": 0.7272727272727273
+      }
+    }
+  },
+  "true_order_sensitivity": {
+    "pairs": 99,
+    "mean_strong": 984.3434343434343,
+    "mean_weak": 1883.3333333333333,
+    "mean_gap_strong_minus_weak": -898.989898989899,
+    "paired_se": 138.5162633197677,
+    "bootstrap_95_percentile_interval": [
+      -1164.6464646464647,
+      -628.2828282828283
+    ],
+    "median_gap": -1050.0,
+    "weak_first": 27,
+    "strong_first": 70,
+    "simultaneous": 2,
+    "strong_censored": 7,
+    "weak_censored": 27,
+    "hit_fraction_by_step": {
+      "500": {
+        "strong": 0.41414141414141414,
+        "weak": 0.16161616161616163
+      },
+      "1000": {
+        "strong": 0.6262626262626263,
+        "weak": 0.26262626262626265
+      },
+      "2000": {
+        "strong": 0.8585858585858586,
+        "weak": 0.48484848484848486
+      },
+      "3000": {
+        "strong": 0.9292929292929293,
+        "weak": 0.7272727272727273
+      }
+    }
+  }
+}
