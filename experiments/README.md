@@ -31,3 +31,12 @@ python3 experiments/summarize_frozenlake.py
 python3 experiments/frozenlake_rollout_selection.py
 python3 experiments/summarize_frozenlake_rollout.py
 ```
+
+## CliffWalking 等步预算基线
+
+先运行官方转移导出脚本，再运行 Node.js 实验。完整批次协议见[固定记录](../research/2026-11-25_cliffwalking_protocol.md)。
+
+```bash
+python3 experiments/export_cliffwalking_transitions.py
+node experiments/cliffwalking_equal_steps.js
+```
