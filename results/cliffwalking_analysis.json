@@ -1,0 +1,47 @@
+{
+  "cohorts": 1000,
+  "admitted": 658,
+  "preparation_steps": 160000000,
+  "selection_assessment_steps": 24265656,
+  "continuation_assessment_steps": 1787219,
+  "mean_strong_steps": 100.22796352583586,
+  "mean_weak_steps": 99.92401215805471,
+  "mean_gap_strong_minus_weak": 0.303951367781155,
+  "paired_se": 3.524021101261035,
+  "bootstrap_95_percentile_interval": [
+    -6.648936170212766,
+    7.218844984802431
+  ],
+  "median_gap": 0.0,
+  "weak_first": 278,
+  "strong_first": 282,
+  "simultaneous": 98,
+  "strong_censored": 0,
+  "weak_censored": 0,
+  "hit_fraction_by_step": {
+    "25": {
+      "strong": 0.19148936170212766,
+      "weak": 0.19300911854103345
+    },
+    "50": {
+      "strong": 0.3495440729483283,
+      "weak": 0.3708206686930091
+    },
+    "100": {
+      "strong": 0.6306990881458967,
+      "weak": 0.6094224924012158
+    },
+    "200": {
+      "strong": 0.9224924012158054,
+      "weak": 0.9316109422492401
+    },
+    "500": {
+      "strong": 1.0,
+      "weak": 1.0
+    },
+    "3000": {
+      "strong": 1.0,
+      "weak": 1.0
+    }
+  }
+}

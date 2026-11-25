@@ -39,4 +39,5 @@ python3 experiments/summarize_frozenlake_rollout.py
 ```bash
 python3 experiments/export_cliffwalking_transitions.py
 node experiments/cliffwalking_equal_steps.js
+python3 experiments/summarize_cliffwalking.py
 ```

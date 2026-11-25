@@ -8,6 +8,8 @@
 
 后续独立批次：[FrozenLake 回合选组复核结果](research/2026-11-25_frozenlake_rollout_result.md)。
 
+第二个官方 RL 任务：[CliffWalking 等步预算基线结果](research/2026-11-25_cliffwalking_result.md)。
+
 ## 阅读入口
 
 - [研究总览](pages/page_030e7a17198c8191b8411f0d4bea0846.md)
