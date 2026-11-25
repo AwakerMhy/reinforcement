@@ -41,3 +41,11 @@ python3 experiments/export_cliffwalking_transitions.py
 node experiments/cliffwalking_equal_steps.js
 python3 experiments/summarize_cliffwalking.py
 ```
+
+## CliffWalking 固定动作优势复核
+
+用准备期 Q 表上的共享参考路径动作优势，分别筛选正向配对和反向对照。阈值与分析顺序见[固定协议](../research/2026-11-25_cliffwalking_margin_protocol.md)。
+
+```bash
+node experiments/cliffwalking_margin.js
+```

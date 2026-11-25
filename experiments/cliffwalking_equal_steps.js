@@ -161,4 +161,6 @@ function main() {
   console.log(JSON.stringify(summary, null, 2));
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {U, greedy, greedyReturn, prepare, hit, next, reward, terminal};
